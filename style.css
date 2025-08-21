@@ -1,0 +1,148 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(236, 4, 4, 0.863);
+    width: 350px; /* Lebar sedikit lebih besar */
+    text-align: center;
+}
+
+.logo {
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 80px; /* Ukuran logo */
+    height: 80px;
+    border-radius: 50%; /* Jika Anda ingin logo berbentuk lingkaran */
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.logo h1 {
+    font-size: 28px;
+    color: #f80606;
+    margin: 0;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.input-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+    font-weight: bold;
+}
+
+.input-group input[type="text"],
+.input-group input[type="password"] {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+.links {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.links a {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
+
+.btn-primary,
+.btn-google {
+    display: block;
+    width: 100%;
+    padding: 12px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 15px; /* Jarak antar tombol */
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+.btn-google {
+    background-color: #db4437; /* Warna khas Google */
+    color: white;
+    display: flex; /* Untuk menempatkan ikon dan teks sejajar */
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-google i {
+    margin-right: 8px; /* Jarak antara ikon dan teks */
+    font-size: 18px;
+}
+
+.btn-google:hover {
+    background-color: #c0392b;
+}
+
+.message {
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.message.success {
+    color: green;
+}
+
+.message.error {
+    color: red;
+}
+
+.signup-link {
+    margin-top: 25px;
+    font-size: 15px;
+    color: #666;
+}
+
+.signup-link a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup-link a:hover {
+    text-decoration: underline;
+}
